@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button btnCategory1, btnCategory2, btnCategory3, btnCategory4, btnCategory5, btnCategory6, btnCategory7, btnCategory8, btnCategory9, btnCategory10, btnCategory11, btnCategory12, btnCategory13;
     //Button btnInAppPurchases;
-    private String category1QuotesURL = "https://silverpalaceltd.com/projects/androidphp/positivityquotesapp/getBookChaptersJSON_C1.php";
-    private String category2QuotesURL = "https://silverpalaceltd.com/projects/androidphp/positivityquotesapp/getBookChaptersJSON_C2.php";
-    private String category3QuotesURL = "https://silverpalaceltd.com/projects/androidphp/positivityquotesapp/getBookChaptersJSON_C3.php";
-    private String category4QuotesURL = "https://silverpalaceltd.com/projects/androidphp/positivityquotesapp/getBookChaptersJSON_C4.php";
+    private String category1QuotesURL = "";
+    private String category2QuotesURL = "";
+    private String category3QuotesURL = "";
+    private String category4QuotesURL = "";
     //String[] mobileArray = {"Android", "IPhone", "WindowsMobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X"};
 
     @Override
