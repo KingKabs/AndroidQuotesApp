@@ -1,0 +1,232 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:background="#F3E5F5"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#EBF4FC"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Positivity Quotes | Categories"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/info_text_separator"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorAccent" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/btnCategory1"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="General Life Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory2"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Love Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory3"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Entrepreneurship Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory4"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Success Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory5"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Inspiration Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory6"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Motivation Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory7"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Wisdom Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory8"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Attitude Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory9"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Imagination Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory10"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Happiness Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory11"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Courage Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory12"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Science Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnCategory13"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:background="@drawable/rounded_button"
+                            android:text="Nature Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/btnInAppPurchases"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20px"
+                            android:text="Support Positivity Quotes"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    <!--ListView
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/-->
+
+
+</RelativeLayout>
